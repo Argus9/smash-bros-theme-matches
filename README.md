@@ -7,7 +7,7 @@ site also acts as a tool to randomly select a ruleset that it is aware of.
 ## How to contribute (rulesets)
 
 1. Fork this project.
-2. Add your ruleset to the `data/rulesets.yml` file.
+2. Add your ruleset to the `public/data/rulesets.json` file.
 3. Create a pull request.
 
 ## How to contribute (core)

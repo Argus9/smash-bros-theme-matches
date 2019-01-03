@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Slappers Only",
+    "description": "Players can only select characters that use hand-to-hand attacks. No weapons or projectiles allowed."
+  },
+  {
+    "name": "Swords Only",
+    "description": "Players can only select characters who wield swords as their main means of attack."
+  },
+  {
+    "name": "Pokemon Battle",
+    "description": "Players may only select Pokemon fighters. Optionally, set items to Pokeballs only."
+  },
+  {
+    "name": "I Choose You! (left)",
+    "description": "Players choose the character for the person to their left. No repeats allowed."
+  },
+  {
+    "name": "I Choose You! (right)",
+    "description": "Players choose the character for the person to their right. No repeats allowed."
+  },
+  {
+    "name": "Counter!",
+    "description": "Players can only choose characters with counter moves."
+  },
+  {
+    "name": "Guests Only",
+    "description": "Players can only choose guest characters, i.e. characters not created by Nintendo (Snake, Cloud, Sonic, etc.)"
+  },
+  {
+    "name": "No Jumps",
+    "description": "Players are not allowed to jump."
+  },
+  {
+    "name": "Heavyweights",
+    "description": "Players may only pick bulky characters."
+  },
+  {
+    "name": "You're Special!",
+    "description": "Players can only use special attacks. No normals or grabs. Jumping allowed."
+  }
+]
