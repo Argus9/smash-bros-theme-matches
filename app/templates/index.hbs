@@ -5,15 +5,23 @@
 
   <p>Find the full list of rulesets in the table below, or click the button right below to pick one at random!</p>
 
-  <div id="random-rule-container">
-    <button {{action "pickRandomRuleset"}}>Randomize!</button>
+  <div class="center-align">
+    <div id="random-rule-container">
+      <button {{action "pickRandomRuleset"}}>Randomize!</button>
 
-    {{#if rulesetPicked}}
-      <div>
-        <h2>{{pickedRuleset.name}}</h2>
-        <p>{{pickedRuleset.description}}</p>
-      </div>
-    {{/if}}
+      {{#if decidingRuleset}}
+        <div>
+          {{fa-icon "spinner" size="25" pulse=true}}
+        </div>
+      {{/if}}
+
+      {{#if rulesetPicked}}
+        <div>
+          <h2>{{pickedRuleset.name}}</h2>
+          <p>{{pickedRuleset.description}}</p>
+        </div>
+      {{/if}}
+    </div>
   </div>
 
   <p>Here's the full list of rulesets.</p>
