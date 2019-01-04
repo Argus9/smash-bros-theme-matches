@@ -19,3 +19,18 @@ site also acts as a tool to randomly select a ruleset that it is aware of.
 5. Create a pull request.
 
 The list of contributors can be found [here](https://github.com/paracycle/slackthemes/graphs/contributors).
+
+## Why build in Ember?
+
+Glad you asked!
+
+### But I didn't...
+
+I'm going to explain anyway.
+
+First, it's a framework I'm familiar with, so much so that I feel more comfortable building projects with it than with 
+bare-bones HTML, CSS, and Javascript alone, even though it's much simpler.
+
+Secondly, and more importantly, while the project might be fairly simple right now, I would eventually like to build it 
+up into something more sophisticated, especially by making it easier for users to submit and manage rulesets. I'll need 
+a back-end API to manage that data, and Ember will turn into the frontend framework to be used in that project setup.
