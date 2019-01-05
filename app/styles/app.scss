@@ -1,11 +1,8 @@
-@import "routes/index.scss";
+@import "themes/theme";
 
-img#github-ribbon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0;
-}
+@import "components/github-ribbon";
+@import "components/page-footer";
+@import "routes/index";
 
 .center-align {
   text-align: center;

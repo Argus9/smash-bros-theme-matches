@@ -1,0 +1,36 @@
+$color-black: #000000;
+$color-gray: #BCBCBC;
+$color-light-gray: #F6F6F6;
+$color-white: #FFFFFF;
+$color-red: #E90410;
+
+$text-foreground: $color-black;
+$text-background: $color-gray;
+$text-faint: $color-light-gray;
+$text-highlight: $color-red;
+$text-hyperlink-clean: $color-red;
+$text-hyperlink-visited: $color-gray;
+
+$background: $color-white;
+
+body {
+  background: $background;
+  color: $text-foreground;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+a {
+  color: $text-hyperlink-clean;
+
+  &:visited {
+    color: $text-hyperlink-visited;
+  }
+}
+
+h2,h3,h4,h5,h6 {
+  color: $text-background;
+
+  &.highlight {
+    color: $text-highlight;
+  }
+}
