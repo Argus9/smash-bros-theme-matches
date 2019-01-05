@@ -38,5 +38,9 @@
   {
     "name": "You're Special!",
     "description": "Players can only use special attacks. No normals or grabs. Jumping allowed."
+  },
+  {
+    "name": "The Rest is History",
+    "description": "Team battle. 1 Ganondorf vs. all Jigglypuffs. Jigglypuffs can only use Rest (Down+B)."
   }
 ]
