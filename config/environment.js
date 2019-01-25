@@ -44,7 +44,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.googleAnalytics = JSON.parse(ENV.googleAnalyticsJSON)
   }
 
   return ENV;
