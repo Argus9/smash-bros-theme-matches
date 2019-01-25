@@ -44,7 +44,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.googleAnalytics = JSON.parse(ENV.googleAnalyticsJSON)
+    if (ENV.googleAnalyticsJSON) {
+      ENV.googleAnalytics = JSON.parse(ENV.googleAnalyticsJSON)
+    }
   }
 
   return ENV;
