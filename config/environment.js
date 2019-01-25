@@ -29,6 +29,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.googleAnalyticsTrackingId = "";
   }
 
   if (environment === 'test') {
@@ -41,12 +42,8 @@ module.exports = function(environment) {
 
     ENV.APP.rootElement = '#ember-testing';
     ENV.APP.autoboot = false;
-  }
 
-  if (environment === 'production') {
-    if (ENV.googleAnalyticsJSON) {
-      ENV.googleAnalytics = JSON.parse(ENV.googleAnalyticsJSON)
-    }
+    ENV.googleAnalyticsTrackingId = "";
   }
 
   return ENV;
