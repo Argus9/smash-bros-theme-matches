@@ -45,7 +45,7 @@
     "ember-source": "~3.6.0",
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
-    "handlebars": ">=4.0.14",
+    "handlebars": ">=4.5.3",
     "jquery": ">= 3.4.0",
     "js-yaml": ">=3.13.1",
     "loader.js": "^4.7.0",
